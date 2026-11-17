@@ -1,0 +1,46 @@
+{
+ "budget": 512,
+ "passes": true,
+ "cells": {
+  "audit|L16N8168-0.25:all|free|h-default": {
+   "responses": 400,
+   "at_limit": 0.0,
+   "valid": 1.0
+  },
+  "audit|L16N8168-0.25:focal|silent|h-own": {
+   "responses": 80,
+   "at_limit": 0.0,
+   "valid": 1.0
+  },
+  "audit|base:all|free|h-default": {
+   "responses": 400,
+   "at_limit": 0.0,
+   "valid": 1.0
+  },
+  "audit|base:focal|silent|h-own": {
+   "responses": 80,
+   "at_limit": 0.0,
+   "valid": 1.0
+  },
+  "trial|L16N8168-0.25:all|free|h-default": {
+   "responses": 400,
+   "at_limit": 0.0025,
+   "valid": 0.9975
+  },
+  "trial|L16N8168-0.25:focal|silent|h-own": {
+   "responses": 80,
+   "at_limit": 0.0,
+   "valid": 1.0
+  },
+  "trial|base:all|free|h-default": {
+   "responses": 400,
+   "at_limit": 0.0025,
+   "valid": 0.9975
+  },
+  "trial|base:focal|silent|h-own": {
+   "responses": 80,
+   "at_limit": 0.0,
+   "valid": 1.0
+  }
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "audit": {
+  "D_own": "positive",
+  "D_none": "positive",
+  "D_own_minus_D_none": "inconclusive",
+  "conceal_steer_shared": "positive",
+  "comm_base": "negligible",
+  "comm_steered": "inconclusive",
+  "comm_interaction": "inconclusive",
+  "abl_team_effect": "negligible",
+  "abl_conceal_shared": "negligible",
+  "random_below_focal": "10/12",
+  "random_below_free": "12/12",
+  "smallest_positive_dose": "-0.1"
+ },
+ "trial": {
+  "D_own": "positive",
+  "D_none": "positive",
+  "D_own_minus_D_none": "inconclusive",
+  "conceal_steer_shared": "positive",
+  "comm_base": "negligible",
+  "comm_steered": "inconclusive",
+  "comm_interaction": "inconclusive",
+  "abl_team_effect": "negligible",
+  "abl_conceal_shared": "negligible",
+  "random_below_focal": "12/12",
+  "random_below_free": "12/12",
+  "smallest_positive_dose": "-0.25"
+ },
+ "food": {
+  "D_own": "positive",
+  "D_none": "positive",
+  "D_own_minus_D_none": "negligible",
+  "conceal_steer_shared": "positive",
+  "comm_base": "negligible",
+  "comm_steered": "inconclusive",
+  "comm_interaction": "inconclusive"
+ },
+ "maint": {
+  "D_own": "positive",
+  "D_none": "positive",
+  "D_own_minus_D_none": "inconclusive",
+  "conceal_steer_shared": "positive",
+  "comm_base": "negligible",
+  "comm_steered": "inconclusive",
+  "comm_interaction": "inconclusive"
+ },
+ "news": {
+  "D_own": "positive",
+  "D_none": "positive",
+  "D_own_minus_D_none": "inconclusive",
+  "conceal_steer_shared": "negligible",
+  "comm_base": "inconclusive",
+  "comm_steered": "inconclusive",
+  "comm_interaction": "inconclusive"
+ },
+ "claims": [
+  "F1: team-setting amplification with history matched, also without history",
+  "C1: steered teams conceal reports more often than unsteered teams",
+  "M4: unresolved or task dependent (audit: base negligible, steered inconclusive; trial: base negligible, steered inconclusive)",
+  "A1: zeroing the neuron has a negligible effect",
+  "G1: D_own positive in all 3 further tasks",
+  "GC2: in 2 of 3 further tasks (food, maint)",
+  "MA4: communication effects are task dependent (steered: audit negative, trial inconclusive, food negative, maint negative, news negative; baseline: audit negligible, trial negligible, food negligible, maint negligible, news negative)",
+  "GN1: D_none positive in all 3 further tasks (D_own - D_none: food negligible, maint inconclusive, news inconclusive)"
+ ]
+}
